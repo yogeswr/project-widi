@@ -11,8 +11,8 @@ interface LinkItem {
 export default function Home() {
   const links: LinkItem[] = [
     { name: "Pendaftaran", url: "https://forms.gle/CeroS5hAu9eQQXD98", icon: <FaRegEdit /> },
-    { name: "Tiket Masuk", url: "/tiket", icon: <FaTicketAlt /> },
-    { name: "Kupon Lucky Draw", url: "/lucky-draw", icon: <FaGift /> },
+    { name: "Tiket Masuk", url: "https://forms.gle/CmY95yeCjijHJRQp7", icon: <FaTicketAlt /> },
+    { name: "Kupon Lucky Draw", url: "https://forms.gle/aSUAfm8MqvQUyKAD6", icon: <FaGift /> },
     { name: "Merchandise", url: "https://forms.gle/ULNB8kwCxhzqWx9AA", icon: <FaTshirt /> },
     { name: "Aturan Balap", url: "https://drive.google.com/file/d/1L8gkf7BqlYjMHrGDWkYRjNaFxiN-7Bsw/view?usp=sharing", icon: <FaFlagCheckered /> },
   ];
@@ -29,11 +29,11 @@ export default function Home() {
 
       <div className="relative z-10 flex flex-col items-center">
         <h1
-          className="mt-4 text-4xl font-extrabold text-gray-100 text-center
+          className="mt-4 text-3xl font-extrabold text-gray-100 text-center
                      drop-shadow-[0_0_12px_rgba(0,0,0,0.8)]
                      leading-relaxed"
         >
-          Pantai Balap Fest Vol-2
+          Pantai Balap Vol-2
         </h1>
 
         <div className="mt-10 w-full flex flex-col items-center">
