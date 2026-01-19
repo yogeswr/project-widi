@@ -82,7 +82,7 @@ export default function Home() {
 
         {/* Vintage distressed links */}
         <div className="w-full space-y-4">
-          {links.map((link, index) => (
+          {links.map((link) => (
             <a
               key={link.name}
               href={link.url}
